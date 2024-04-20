@@ -21,11 +21,11 @@ function verificaChuteValido(chute) {
             <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
         `
     } else if (numero > numeroSecreto) {
-        elementoChute.innerHTML = `
+        elementoChute.innerHTML += `
         <div>O número secreto é menor<i class="fa-solid fa-down-long"></i></div>
         `
     } else {
-        elementoChute.innerHTML = `
+        elementoChute.innerHTML += `
         <div>O número secreto é maior<i class="fa-solid fa-up-long"></i></div>
         `
     }
